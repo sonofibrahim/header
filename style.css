@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    
+    background-color: #2F343A;
+    color: #ffffff;
+    font-family: system-ui;
+}
+
+.top {
+    background-color: #C8A35F;
+    padding: 16px 0px;    
+
+   
+}
+
+.container{
+    width: 1110px;
+    margin: 0% auto;
+   
+   
+}
+/* top */
+.top .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.top ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-transform: uppercase;
+
+}
+
+.top a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+
