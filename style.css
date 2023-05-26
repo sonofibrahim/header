@@ -69,3 +69,30 @@ align-items: center;
     gap: 30px;
     text-transform: uppercase;
 }
+/* hero */
+.hero{
+    background-image: url(images/fura.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 155px 0 220px;
+}
+.hero .block{
+    border: 1px #C8A35F solid;
+    padding: 45px 70px;
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero .block h1{
+    text-transform: uppercase;
+    font-size: 64px;
+    margin-bottom: 45px;
+    
+}
+
+.hero .block p{
+    font-size: 18px;
+    
+}
