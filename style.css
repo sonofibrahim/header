@@ -47,4 +47,25 @@ align-items: center;
 
 }
 
-
+/* navbar */
+.navbar{
+    font-family: system-ui;
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 27px;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar .menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    text-transform: uppercase;
+}
